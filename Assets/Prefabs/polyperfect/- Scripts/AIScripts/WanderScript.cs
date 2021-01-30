@@ -262,7 +262,7 @@ namespace PolyPerfect
 
             if (attackingStates.Length == 0)
             {
-                Debug.Log(string.Format("{0} has " + attackingStates.Length + " this character will not be able to attack. See documentation for more details (4)", gameObject.name));
+
             }
 
             if (attackingStates.Length > 0)

@@ -7,6 +7,8 @@ using UnityEngine.Audio;
 public class dogScript : MonoBehaviour
 {
     public bool vittoria = false;
+    public dogBarking dogBarking;
+    public GameObject dogSound;
     public void OnTriggerEnter(Collider playerFound)
     {
         if (playerFound.gameObject.CompareTag("Player"))
@@ -14,13 +16,13 @@ public class dogScript : MonoBehaviour
             vittoria = true;
         }
     }
-    private void Update()
+     void Update()
     {
         if (vittoria == true)
         {
             SceneManager.LoadScene("aaaa");
-
         }
+        dogSound.SetActive(true);
     }
     // Update is called once per frame
 

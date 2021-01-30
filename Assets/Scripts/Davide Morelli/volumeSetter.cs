@@ -9,7 +9,6 @@ public class volumeSetter : MonoBehaviour
     // Start is called before the first frame update
 public void SetVolume(float volume)
     {
-        Debug.Log(volume);
         audioMixer.SetFloat("MainVolume", volume);
     }
 }
