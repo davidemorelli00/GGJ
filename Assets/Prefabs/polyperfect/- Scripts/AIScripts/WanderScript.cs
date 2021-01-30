@@ -58,7 +58,7 @@ namespace PolyPerfect
         private float originalScent = 0f;
 
         // [SerializeField, Tooltip("How many seconds this animal can run for before it gets tired.")]
-        private float stamina = 10f;
+        private float stamina = 5f;
 
         // [SerializeField, Tooltip("How much this damage this animal does to another animal.")]
         private float power = 10f;
@@ -262,7 +262,7 @@ namespace PolyPerfect
 
             if (attackingStates.Length == 0)
             {
-                Debug.Log(string.Format("{0} has " + attackingStates.Length + " this character will not be able to attack. See documentation for more details (4)", gameObject.name));
+
             }
 
             if (attackingStates.Length > 0)
