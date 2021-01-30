@@ -6,8 +6,8 @@ using UnityEngine.Audio;
 public class dogBarking : MonoBehaviour
 {
     public int random;
-  //  public AudioSource abbaio;
-   // public AudioSource pianto;
+    public AudioSource abbaio;
+    public AudioSource pianto;
     public GameObject Script;
 
     // Update is called once per frame
@@ -21,13 +21,13 @@ public class dogBarking : MonoBehaviour
             
             if (random > 5)
             {
-               // abbaio.Play();
+                abbaio.Play();
                 Debug.Log("abbaia");
             }
 
             if (random < 5)
             {
-                //pianto.Play();
+                pianto.Play();
                 Debug.Log("piange");
             }
             random = 0;
