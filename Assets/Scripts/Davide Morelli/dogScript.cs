@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
 
 public class dogScript : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class dogScript : MonoBehaviour
         if (vittoria == true)
         {
             SceneManager.LoadScene("aaaa");
+
         }
     }
     // Update is called once per frame

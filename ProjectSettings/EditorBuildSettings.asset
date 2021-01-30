@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/aaaa.unity
+    path: Assets/Scripts/Davide Morelli/aaaa.unity
     guid: 7e203cac3120a924cbf5c4cc7dbc6439
   m_configObjects: {}

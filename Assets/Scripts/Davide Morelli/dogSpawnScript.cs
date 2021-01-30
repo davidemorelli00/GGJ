@@ -20,7 +20,6 @@ public class dogSpawnScript : MonoBehaviour
         if (randomSpawn == 1)
         {
             dogSpawn = Random.Range(2, 4);
-            Instantiate(dog, spawn1, transform.rotation);
 
             if (dogSpawn == 2)
             {
@@ -81,6 +80,8 @@ public class dogSpawnScript : MonoBehaviour
                 Instantiate(dog, spawn4, transform.rotation);
             }
         }
+
+
         if (randomSpawn == 4)
         {
             dogSpawn = Random.Range(1, 3);
