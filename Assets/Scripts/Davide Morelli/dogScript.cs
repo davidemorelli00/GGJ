@@ -24,6 +24,6 @@ public class dogScript : MonoBehaviour
         }
         dogSound.SetActive(true);
     }
-    // Update is called once per frame
+
 
 }

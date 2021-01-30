@@ -11,12 +11,12 @@ public class dogSpawnScript : MonoBehaviour
     public Vector3 spawn2;
     public Vector3 spawn3;
     public Vector3 spawn4;
-    public randNumber randNumber;
+    public charSpawn charSpawn;
     // Start is called before the first frame update
-    void Start()
+    // void Start()
+    public void CharSpawn()
     {
-        randNumber.randNumberGen();
-        randomSpawn = randNumber.numberRandom;
+        randomSpawn = charSpawn.randomSpawn;
         if (randomSpawn == 1)
         {
             dogSpawn = Random.Range(2, 4);
