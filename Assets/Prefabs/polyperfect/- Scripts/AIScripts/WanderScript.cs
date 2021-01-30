@@ -58,7 +58,7 @@ namespace PolyPerfect
         private float originalScent = 0f;
 
         // [SerializeField, Tooltip("How many seconds this animal can run for before it gets tired.")]
-        private float stamina = 10f;
+        private float stamina = 5f;
 
         // [SerializeField, Tooltip("How much this damage this animal does to another animal.")]
         private float power = 10f;
