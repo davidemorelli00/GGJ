@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class Rotation : MonoBehaviour
 {
-    public float horizontalSpeed = 2.0f;
-    public float verticalSpeed = 2.0f;
-
-    public float min = 150f;
-    public float max = 210f;
+    private float rotationZ = 0f;
+    private float sensitivityZ = 2f;
 
     void Update()
     {
-        float h = horizontalSpeed * Input.GetAxis("Mouse X");
 
-        transform.Rotate(0, h, 0);
+        rotationZ += Input.GetAxis("Mouse X") * sensitivityZ;
+        rotationZ = Mathf.Clamp (rotationZ, 45, 135);
+             
+        transform.localEulerAngles = new Vector3(-rotationZ, 0, 0);
+
     }
 }
