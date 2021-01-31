@@ -20,7 +20,7 @@ public class dogScript : MonoBehaviour
     {
         if (vittoria == true)
         {
-            SceneManager.LoadScene("aaaa");
+            SceneManager.LoadScene("EndGame");
         }
         dogSound.SetActive(true);
     }

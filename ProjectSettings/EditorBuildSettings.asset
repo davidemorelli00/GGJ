@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scripts/Davide Morelli/EndGame.unity
     guid: 5be9a8d2d5eb2f04bb318a74154f5a44
+  - enabled: 1
+    path: Assets/Scenes/ScenaDavide.unity
+    guid: 8e324629de3c15d47920980a519792e0
   m_configObjects: {}

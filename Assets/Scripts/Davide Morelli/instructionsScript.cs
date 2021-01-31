@@ -13,6 +13,6 @@ public void fwd()
     }
     public void startGame()
     {
-        SceneManager.LoadScene("game");
+        SceneManager.LoadScene("ScenaDavide");
     }
 }
