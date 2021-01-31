@@ -69,5 +69,12 @@ public class CharacterMovement : MonoBehaviour
             anim.SetBool("isRunning", false);
         }
     }
+
+    /*private void OnCollisionEnter(Collision collision){
+        if(collision.gameObject.tag == "Ground"){
+          isGrounded = true;
+          anim.SetBool("isJumping", false);
+        }
+      }*/
     
 }
