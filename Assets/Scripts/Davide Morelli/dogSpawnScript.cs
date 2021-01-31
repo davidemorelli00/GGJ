@@ -64,7 +64,7 @@ public class dogSpawnScript : MonoBehaviour
             dogSpawn = randomSpawn;
             while (dogSpawn == 3)
             {
-                dogSpawn = Random.Range(1, 4);
+                dogSpawn = Random.Range(1, 2);
             }
 
             if (dogSpawn == 1)
@@ -75,16 +75,13 @@ public class dogSpawnScript : MonoBehaviour
             {
                 Instantiate(dog, spawn2, transform.rotation);
             }
-            if (dogSpawn == 4)
-            {
-                Instantiate(dog, spawn4, transform.rotation);
-            }
+
         }
 
 
         if (randomSpawn == 4)
         {
-            dogSpawn = Random.Range(1, 3);
+            dogSpawn = Random.Range(1, 2);
             if (dogSpawn == 1)
             {
                 Instantiate(dog, spawn1, transform.rotation);
@@ -93,10 +90,7 @@ public class dogSpawnScript : MonoBehaviour
             {
                 Instantiate(dog, spawn2, transform.rotation);
             }
-            if (dogSpawn == 3)
-            {
-                Instantiate(dog, spawn3, transform.rotation);
-            }
+
         }
     }
 

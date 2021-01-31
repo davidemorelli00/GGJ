@@ -2227,6 +2227,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   random: 0
-  abbaio: {fileID: 0}
-  pianto: {fileID: 0}
   Script: {fileID: 5768640484511318367}
